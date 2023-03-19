@@ -9,13 +9,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
-
+    @IBOutlet var redLight: UIView!
+    @IBOutlet var yellowLight: UIView!
+    @IBOutlet var greenLight: UIView!
+    
+    @IBOutlet var startButton: UIButton!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-//        groupOfSignals.layer.cornerRadius = 5
-//        groupOfSignals.layer.masksToBounds = true
         
         
     }
