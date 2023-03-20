@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     
     @IBOutlet var startButton: UIButton!
     
-    var currentColor = 0
+    private var currentColor = 0
     
     
     override func viewDidLoad() {
@@ -24,14 +24,14 @@ class ViewController: UIViewController {
         }
     
     
-    func makeRoundedFrame() {
+    private func makeRoundedFrame() {
         redLight.layer.cornerRadius = 50
         greenLight.layer.cornerRadius = 50
         yellowLight.layer.cornerRadius = 50
     }
     
     
-    @IBAction func changeColorButton() {
+    @IBAction private func changeColorButton() {
         
         if currentColor == 0 || currentColor == 3 {
             startButton.setTitle("Next", for: .normal)
