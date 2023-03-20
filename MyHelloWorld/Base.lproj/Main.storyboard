@@ -70,7 +70,6 @@
                             <constraint firstItem="6t0-Fz-bYt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Zhc-a6-ykD"/>
                             <constraint firstItem="out-5V-zrQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="drN-ge-2ZP"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="out-5V-zrQ" secondAttribute="bottom" constant="71.670000000000002" id="xAU-Tj-KTq"/>
-                            <constraint firstItem="6t0-Fz-bYt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zd5-4n-5QP"/>
                         </constraints>
                     </view>
                     <connections>

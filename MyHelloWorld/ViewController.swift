@@ -20,8 +20,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.makeRoundedFrame()
-        }
+        makeRoundedFrame()
+    }
     
     
     private func makeRoundedFrame() {
@@ -32,9 +32,9 @@ class ViewController: UIViewController {
     
     
     @IBAction private func changeColorButton() {
+        startButton.setTitle("Next", for: .normal)
         
         if currentColor == 0 || currentColor == 3 {
-            startButton.setTitle("Next", for: .normal)
             redLight.alpha = 1
             yellowLight.alpha = 0.25
             greenLight.alpha = 0.25
